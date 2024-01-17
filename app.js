@@ -1,4 +1,4 @@
-const repositoriesToShow = 10; // or any other initial value
+let repositoriesToShow = 10; // or any other initial value
 const gitHubForm = document.getElementById("gitHubForm");
 const loader = document.getElementById("loader");
 const filterInput = document.getElementById("filterInput");
