@@ -214,3 +214,24 @@ form {
 .error-message {
   margin: 0;
 }
+
+ul#userRepos {
+  max-height: 400px; 
+  overflow-y: auto; 
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+ul#userRepos::-webkit-scrollbar {
+  width: 10px;
+}
+
+ul#userRepos::-webkit-scrollbar-thumb {
+  background-color: #565656; 
+  border-radius: 5px;
+}
+
+ul#userRepos::-webkit-scrollbar-track {
+  background-color: #f1f1f1; 
+}
